@@ -1,0 +1,20 @@
+.logo figure{
+    width: 158.94px;
+    height: 36.83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+}
+
+.logo figure img{
+    width: 100%;
+}
+
+@media  screen and (min-width:768px){
+
+    .logo figure{
+        margin-left: 100px;
+    }
+
+}

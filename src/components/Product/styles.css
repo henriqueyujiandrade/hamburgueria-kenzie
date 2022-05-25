@@ -1,0 +1,102 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 346px;
+    border: 2px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #FFFFFF;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    margin-bottom: 12px;
+    margin-right: 5px;
+}
+
+.product:hover{
+    border: 2px solid #27AE60;
+}
+
+.product figure{
+    align-self: center;
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    
+}
+
+.product figure img{
+    width: 158px;
+}
+
+.product div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    flex-grow: 1;   
+}
+
+.product div h2{
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+
+}
+
+.product div p{
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+
+.product div span{
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27AE60;
+}
+
+.product div button{
+    margin-left: 20px;
+    width: 106px;
+    height: 40px;
+    border: 2px solid #27AE60;
+    background-color: #27AE60;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF
+}
+
+.product div button:hover{
+    background-color:#FFFFFF;
+    color: #27AE60;
+    cursor: pointer;
+
+}
+
+
+@media  screen and (min-width:768px){
+    .product{
+        margin-right: 0;
+    }
+}
